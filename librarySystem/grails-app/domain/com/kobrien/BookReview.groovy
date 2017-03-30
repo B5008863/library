@@ -4,7 +4,7 @@ class BookReview {
 
 	String book
 
-	int dateCreated
+	Date dateCreated
 
 	String student
 
@@ -14,7 +14,7 @@ class BookReview {
 
 	book blank:false, nullable:false
 
-	dateCreated blank:false, nullable:false, min=6, max=10
+	dateCreated blank:false, nullable:false
 	
 	student blank:false, nullable:false
 

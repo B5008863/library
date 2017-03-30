@@ -10,9 +10,9 @@ class Book {
 
 	String isbn
 
-	int dateBorrowed
+	Date dateBorrowed
 
-	int returnDate
+	Date returnDate
 
 	String student
 
@@ -28,9 +28,9 @@ class Book {
 
 	isbn blank:false, nullable:false
 
-	dateBorrowed blank:false, nullable:false, min=6, max=10
+	dateBorrowed blank:false, nullable:false
 
-	returnDate blank:false, nullable:false, min=6, max=10
+	returnDate blank:false, nullable:false
 
 	student blank:false, nullable:false
 
