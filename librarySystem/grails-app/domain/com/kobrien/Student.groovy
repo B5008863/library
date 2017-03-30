@@ -10,9 +10,11 @@ class Student {
 
 	String password
 
-	String studentid
+	String studentId
 
 	String course
+
+	static hasMany[]
 
     static constraints = {
 
@@ -24,7 +26,7 @@ class Student {
 
 	password blank:false, nullable:false, min=6, max=1
 
-	studentid blank:false, nullable:false
+	studentId blank:false, nullable:false
 
 	course blank:false, nullable:false
 
