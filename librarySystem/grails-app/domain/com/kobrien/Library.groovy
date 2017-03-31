@@ -2,7 +2,7 @@ package com.kobrien
 
 class Library {
 
-	String name/building
+	String building
 
 	String address
 
@@ -14,7 +14,7 @@ class Library {
 
     static constraints = {
 
-	name/building blank:false, nullable:false
+	building blank:false, nullable:false
 
 	address blank:false, nullable:false
 

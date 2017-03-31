@@ -29,10 +29,10 @@ class BootStrap {
 	address:'Arudel Gate Avenue, Sheffield, S1 2QU',
 	openingHours:'9:00-20:00',
 	location:'Adsetts',
-	studySpaces:'Level 1, 2, 3, 4, 5, 6 bookable PC's'
+	studySpaces:'Level one to six bookable PCs and rooms'
 	).save()
 
-	def Book1=new Book(
+	def book1=new Book(
 	title:'The Curious Incident Of The Dog In The Night Time',
 	subject:'English Language',
 	author:'Mark Haddon',
@@ -43,7 +43,7 @@ class BootStrap {
 	overdue:'1 day'
 	).save()
 
-	def Book2=new Book(
+	def book2=new Book(
 	title:'Computer Networks',
 	subject:'ICT',
 	author:' Andrew S Tanenbaum',
@@ -54,7 +54,7 @@ class BootStrap {
 	overdue:'1 day'
 	).save()
 
-	def Student1=new Student(
+	def student1=new Student(
 	name:'Hayley Wakefield',
 	email:'H.Wakefield@my.shu.ac.uk',
 	username:'B5019908',
@@ -63,7 +63,7 @@ class BootStrap {
 	Course:'A Level English Language'
 	).save()
 
-	def Student2=new Student(
+	def student2=new Student(
 	name:'Stephen Carl',
 	email:'S.Carl@my.shu.ac.uk',
 	username:'B5015129',
@@ -72,7 +72,7 @@ class BootStrap {
 	Course:'A Level English Language'
 	).save()
 
-	def Student3=new Student(
+	def student3=new Student(
 	name:'Matthew Underwood',
 	email:'M.Underwood@my.shu.ac.uk',
 	username:'B5889031',
@@ -81,7 +81,7 @@ class BootStrap {
 	Course:'ICT'
 	).save()
 
-	def Course1.new Course(
+	def course1.new Course(
 	title:'ICT',
 	code:'1039',
 	leader:'Lewis Kicks',
@@ -90,7 +90,7 @@ class BootStrap {
 	studyMode:'Full-time'
 	).save()
 
-	def Course2.new Course(
+	def course2.new Course(
 	title:'English Language',
 	code:'2015',
 	leader:'Megan Higgins',
