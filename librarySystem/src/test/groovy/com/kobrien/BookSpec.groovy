@@ -9,14 +9,22 @@ import spock.lang.Specification
 @TestFor(Book)
 class BookSpec extends Specification {
 
-    def setup() {
-    }
+	def "find author using first and last name"(){
 
-    def cleanup() {
-    }
+	setup:
+	mockDomain(author)
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+	when:
+	new author(firstname: firstname,lastname:lastname)
+	.save()
+
+	then:
+	author.findByFirstnameAndLastname(firstname,lastname) !=null
+
+	where:
+	firstname = "Mark"
+	lastname = "Haddon"
+
+    
     }
 }

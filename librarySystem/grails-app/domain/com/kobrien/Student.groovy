@@ -14,6 +14,7 @@ class Student {
 
 	String course
 
+	static hasMany=[librarians:Librarian, students:Student, books:Book]
 
     static constraints = {
 
@@ -23,7 +24,7 @@ class Student {
 
 	username blank:false, nullable:false
 
-	password blank:false, nullable:false, min=6, max=1
+	password blank:false, nullable:false
 
 	studentId blank:false, nullable:false
 

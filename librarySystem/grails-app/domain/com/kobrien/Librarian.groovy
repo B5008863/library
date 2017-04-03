@@ -13,9 +13,10 @@ class Librarian {
 
 	String password
 
-	int telephone
+	String telephone
 
 	String library
+
 
     static constraints = {
 	
@@ -29,7 +30,7 @@ class Librarian {
 
 	password blank:false, nullable:false
 
-	telephone blank:false, nullable:false, min=7, max=12
+	telephone blank:false, nullable:false
 
 	library blank:false, nullable:false
 

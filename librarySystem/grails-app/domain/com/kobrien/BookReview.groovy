@@ -10,11 +10,12 @@ class BookReview {
 
 	String review
 
+
     static constraints = {
 
 	book blank:false, nullable:false
 
-	dateCreated blank:false, nullable:false, min=6, max=10
+	dateCreated blank:false, nullable:false
 	
 	student blank:false, nullable:false
 

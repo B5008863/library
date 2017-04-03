@@ -12,6 +12,8 @@ class Library {
 
 	String studySpaces
 
+	static hasMany= [librarians:Librarian, students:Student, books:Book]
+
     static constraints = {
 
 	building blank:false, nullable:false

@@ -17,6 +17,9 @@ class Book {
 	String student
 
 	String overdue
+
+	static hasMany=[bookreviews:BookReview]
+	static belongsTo=[BookReview]
 	
     static constraints = {
 
@@ -28,9 +31,9 @@ class Book {
 
 	isbn blank:false, nullable:false
 
-	dateBorrowed blank:false, nullable:false, min=6, max=10
+	dateBorrowed blank:false, nullable:false
 
-	returnDate blank:false, nullable:false, min=6, max=10
+	returnDate blank:false, nullable:false
 
 	student blank:false, nullable:false
 
