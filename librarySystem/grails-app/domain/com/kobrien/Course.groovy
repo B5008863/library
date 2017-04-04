@@ -14,6 +14,10 @@ class Course {
 
 	String studyMode
 
+	String toString()
+
+	{title}
+
 	static hasMany=[students:Student]
 
 

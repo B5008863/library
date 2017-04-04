@@ -12,9 +12,17 @@ class Student {
 
 	String studentId
 
-	String course
+	Course course
 
-	static hasMany=[librarians:Librarian, students:Student, books:Book]
+	Library library
+
+	String toString()
+
+	{name}
+
+
+	static hasMany=[books:Book, bookreviews:BookReview]
+
 
     static constraints = {
 

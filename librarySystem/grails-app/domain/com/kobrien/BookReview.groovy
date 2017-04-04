@@ -2,20 +2,24 @@ package com.kobrien
 
 class BookReview {
 
-	String book
+	Book book
 
-	int dateCreated
+	Date dateMade
 
-	String student
+	Student student
 
 	String review
+
+	String toString()
+
+	{book}
 
 
     static constraints = {
 
 	book blank:false, nullable:false
 
-	dateCreated blank:false, nullable:false
+	dateMade blank:false, nullable:false
 	
 	student blank:false, nullable:false
 

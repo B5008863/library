@@ -15,7 +15,11 @@ class Librarian {
 
 	String telephone
 
-	String library
+	Library library
+
+	String toString()
+
+	{name}
 
 
     static constraints = {

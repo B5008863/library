@@ -10,16 +10,21 @@ class Book {
 
 	String isbn
 
-	int dateBorrowed
+	Date dateBorrowed
 
-	int returnDate
+	Date returnDate
 
-	String student
+	Student student
 
-	String overdue
+	Boolean overdue
+
+	Library library
+
+	String toString()
+
+	{title}
 
 	static hasMany=[bookreviews:BookReview]
-	static belongsTo=[BookReview]
 	
     static constraints = {
 

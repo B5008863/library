@@ -12,6 +12,10 @@ class Library {
 
 	String studySpaces
 
+	String toString()
+
+	{building}
+
 	static hasMany= [librarians:Librarian, students:Student, books:Book]
 
     static constraints = {
