@@ -9,7 +9,7 @@ class Librarian {
 
 	String office
 
-	String username
+	String userName
 
 	String password
 
@@ -30,7 +30,7 @@ class Librarian {
 
 	office blank:false, nullable:false
 
-	username blank:false, nullable:false, unique:true
+	userName blank:false, nullable:false, unique:true
 
 	password blank:false, nullable:false
 

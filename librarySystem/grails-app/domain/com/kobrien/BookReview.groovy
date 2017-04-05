@@ -15,6 +15,7 @@ class BookReview {
 	{book}
 
 
+
     static constraints = {
 
 	book blank:false, nullable:false

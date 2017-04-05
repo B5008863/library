@@ -6,7 +6,7 @@ class Student {
 
 	String email
 
-	String username
+	String userName
 
 	String password
 
@@ -30,7 +30,7 @@ class Student {
 
 	email blank:false, nullable:false, email:true
 
-	username blank:false, nullable:false
+	userName blank:false, nullable:false
 
 	password blank:false, nullable:false
 
