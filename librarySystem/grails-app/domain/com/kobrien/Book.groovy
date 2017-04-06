@@ -24,8 +24,8 @@ class Book {
 
 	{title}
 
-
 	static hasMany=[bookreviews:BookReview]
+
 	
     static constraints = {
 
